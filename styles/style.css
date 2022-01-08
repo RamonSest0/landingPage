@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&family=Poppins:wght@100;200;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    transition: linear .2s;
+
+}
+
+body {
+    background-image: url(../assets/background.jpg);
+    font-size: 15px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 4.1rem;
+}
+
+.info {
+    display: flex;
+    gap: 32px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.info a:hover {
+    color: #FFE81F;
+}
+
+.content {
+    display: flex;
+    flex-direction: column; 
+    border-top: 1px solid rgba(255, 255, 255, 0.534);
+}
+
+.content-principal {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-principal-title {
+    display: flex;
+    flex-direction: column; 
+    align-items: start;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 7rem
+}
+
+.content-principal-title h1 {
+    font-size: 3.3rem;
+}
+
+.content-principal-title h2 {
+    font-size: 2.3rem;
+}
+
+.content-principal-title button {
+    cursor: pointer;
+    border: none;
+    border-radius: 1.1rem; 
+    width: 11rem;
+    padding: .8rem;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFE81F;
+    color: black;
+}
+
+.content-principal-title button:hover {
+    background-color: #dbc609;
+}
+
+.content-secondary {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+    text-align: justify;
+
+}
+
+.line {
+    height: 1px;
+    width: 255px;
+    background-color: rgba(255, 255, 255, 0.534);
+    margin-bottom: 1rem;
+}
+
+.content-secondary h3 {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.content-secondary p {
+    font-size: 1.12rem;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 100px;
+    border-top: 1px solid rgba(255, 255, 255, 0.534);
+}
+
+.footer a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.line-footer {
+    width: 2px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.534);
+}
+
+.footer a:hover {
+    color: #FFE81F;
+}
+
